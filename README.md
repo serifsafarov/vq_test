@@ -9,7 +9,11 @@
 - npm install
 - php artisan optimize:clear
 - php artisan migrate
+- npm run dev
 
 ### Optional
-- npm run dev
 - ./vendor/bin/pest
+
+
+## DONE
+Now you can access app on http://localhost:4000

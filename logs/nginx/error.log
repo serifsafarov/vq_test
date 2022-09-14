@@ -2757,3 +2757,413 @@ The exception occurred while attempting to log: The stream or file "/var/www/vq/
 2022/09/14 18:54:17 [notice] 1#1: start worker process 52
 2022/09/14 18:54:17 [notice] 1#1: start worker process 53
 2022/09/14 18:54:17 [notice] 1#1: start worker process 54
+2022/09/14 18:59:44 [notice] 53#53: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 38#38: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 36#36: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 43#43: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 45#45: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 50#50: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 50#50: exiting
+2022/09/14 18:59:44 [notice] 44#44: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 42#42: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 37#37: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 52#52: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 48#48: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 34#34: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 54#54: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 54#54: exiting
+2022/09/14 18:59:44 [notice] 46#46: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 49#49: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 31#31: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 35#35: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 35#35: exiting
+2022/09/14 18:59:44 [notice] 33#33: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 39#39: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 32#32: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 51#51: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 51#51: exiting
+2022/09/14 18:59:44 [notice] 47#47: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 53#53: exiting
+2022/09/14 18:59:44 [notice] 40#40: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 41#41: signal 15 (SIGTERM) received, exiting
+2022/09/14 18:59:44 [notice] 38#38: exiting
+2022/09/14 18:59:44 [notice] 36#36: exiting
+2022/09/14 18:59:44 [notice] 43#43: exiting
+2022/09/14 18:59:44 [notice] 45#45: exiting
+2022/09/14 18:59:44 [notice] 50#50: exit
+2022/09/14 18:59:44 [notice] 44#44: exiting
+2022/09/14 18:59:44 [notice] 42#42: exiting
+2022/09/14 18:59:44 [notice] 37#37: exiting
+2022/09/14 18:59:44 [notice] 52#52: exiting
+2022/09/14 18:59:44 [notice] 48#48: exiting
+2022/09/14 18:59:44 [notice] 34#34: exiting
+2022/09/14 18:59:44 [notice] 54#54: exit
+2022/09/14 18:59:44 [notice] 46#46: exiting
+2022/09/14 18:59:44 [notice] 49#49: exiting
+2022/09/14 18:59:44 [notice] 31#31: exiting
+2022/09/14 18:59:44 [notice] 35#35: exit
+2022/09/14 18:59:44 [notice] 33#33: exiting
+2022/09/14 18:59:44 [notice] 39#39: exiting
+2022/09/14 18:59:44 [notice] 1#1: signal 1 (SIGHUP) received, reconfiguring
+2022/09/14 18:59:44 [notice] 32#32: exiting
+2022/09/14 18:59:44 [notice] 51#51: exit
+2022/09/14 18:59:44 [notice] 47#47: exiting
+2022/09/14 18:59:44 [notice] 53#53: exit
+2022/09/14 18:59:44 [notice] 40#40: exiting
+2022/09/14 18:59:44 [notice] 41#41: exiting
+2022/09/14 18:59:44 [notice] 38#38: exit
+2022/09/14 18:59:44 [notice] 36#36: exit
+2022/09/14 18:59:44 [notice] 43#43: exit
+2022/09/14 18:59:44 [notice] 45#45: exit
+2022/09/14 18:59:44 [notice] 44#44: exit
+2022/09/14 18:59:44 [notice] 42#42: exit
+2022/09/14 18:59:44 [notice] 37#37: exit
+2022/09/14 18:59:44 [notice] 52#52: exit
+2022/09/14 18:59:44 [notice] 48#48: exit
+2022/09/14 18:59:44 [notice] 34#34: exit
+2022/09/14 18:59:44 [notice] 46#46: exit
+2022/09/14 18:59:44 [notice] 49#49: exit
+2022/09/14 18:59:44 [notice] 31#31: exit
+2022/09/14 18:59:44 [notice] 33#33: exit
+2022/09/14 18:59:44 [notice] 39#39: exit
+2022/09/14 18:59:44 [notice] 32#32: exit
+2022/09/14 18:59:44 [notice] 47#47: exit
+2022/09/14 18:59:44 [notice] 40#40: exit
+2022/09/14 18:59:44 [notice] 41#41: exit
+2022/09/14 18:59:44 [notice] 1#1: signal 14 (SIGALRM) received
+2022/09/14 18:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 53
+2022/09/14 18:59:44 [notice] 1#1: worker process 31 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 32 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 42 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 53 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/14 18:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/14 18:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2022/09/14 18:59:44 [notice] 1#1: worker process 33 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 34 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 35 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 36 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 37 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 39 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 40 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 41 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 43 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 45 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 47 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 48 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 49 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 50 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 51 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 52 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 54 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/14 18:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 52
+2022/09/14 18:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2022/09/14 18:59:44 [notice] 1#1: worker process 38 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 44 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: worker process 46 exited with code 0
+2022/09/14 18:59:44 [notice] 1#1: exit
+2022/09/14 19:15:17 [notice] 1#1: using the "epoll" event method
+2022/09/14 19:15:17 [notice] 1#1: nginx/1.23.1
+2022/09/14 19:15:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/14 19:15:17 [notice] 1#1: OS: Linux 5.10.102.1-microsoft-standard-WSL2
+2022/09/14 19:15:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/14 19:15:17 [notice] 1#1: start worker processes
+2022/09/14 19:15:17 [notice] 1#1: start worker process 31
+2022/09/14 19:15:17 [notice] 1#1: start worker process 32
+2022/09/14 19:15:17 [notice] 1#1: start worker process 33
+2022/09/14 19:15:17 [notice] 1#1: start worker process 34
+2022/09/14 19:15:17 [notice] 1#1: start worker process 35
+2022/09/14 19:15:17 [notice] 1#1: start worker process 36
+2022/09/14 19:15:17 [notice] 1#1: start worker process 37
+2022/09/14 19:15:17 [notice] 1#1: start worker process 38
+2022/09/14 19:15:17 [notice] 1#1: start worker process 39
+2022/09/14 19:15:17 [notice] 1#1: start worker process 40
+2022/09/14 19:15:17 [notice] 1#1: start worker process 41
+2022/09/14 19:15:17 [notice] 1#1: start worker process 42
+2022/09/14 19:15:17 [notice] 1#1: start worker process 43
+2022/09/14 19:15:17 [notice] 1#1: start worker process 44
+2022/09/14 19:15:17 [notice] 1#1: start worker process 45
+2022/09/14 19:15:17 [notice] 1#1: start worker process 46
+2022/09/14 19:15:17 [notice] 1#1: start worker process 47
+2022/09/14 19:15:17 [notice] 1#1: start worker process 48
+2022/09/14 19:15:17 [notice] 1#1: start worker process 49
+2022/09/14 19:15:17 [notice] 1#1: start worker process 50
+2022/09/14 19:15:17 [notice] 1#1: start worker process 51
+2022/09/14 19:15:17 [notice] 1#1: start worker process 52
+2022/09/14 19:15:17 [notice] 1#1: start worker process 53
+2022/09/14 19:15:17 [notice] 1#1: start worker process 54
+2022/09/14 19:23:29 [notice] 37#37: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 40#40: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 53#53: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 41#41: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 34#34: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 34#34: exiting
+2022/09/14 19:23:29 [notice] 42#42: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 42#42: exiting
+2022/09/14 19:23:29 [notice] 31#31: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 35#35: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 43#43: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 43#43: exiting
+2022/09/14 19:23:29 [notice] 32#32: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 38#38: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 50#50: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 50#50: exiting
+2022/09/14 19:23:29 [notice] 45#45: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 39#39: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 39#39: exiting
+2022/09/14 19:23:29 [notice] 47#47: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 47#47: exiting
+2022/09/14 19:23:29 [notice] 44#44: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 48#48: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 51#51: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 49#49: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 49#49: exiting
+2022/09/14 19:23:29 [notice] 37#37: exiting
+2022/09/14 19:23:29 [notice] 54#54: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 54#54: exiting
+2022/09/14 19:23:29 [notice] 36#36: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 52#52: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 46#46: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 46#46: exiting
+2022/09/14 19:23:29 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 33#33: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:23:29 [notice] 40#40: exiting
+2022/09/14 19:23:29 [notice] 53#53: exiting
+2022/09/14 19:23:29 [notice] 41#41: exiting
+2022/09/14 19:23:29 [notice] 34#34: exit
+2022/09/14 19:23:29 [notice] 42#42: exit
+2022/09/14 19:23:29 [notice] 1#1: signal 1 (SIGHUP) received, reconfiguring
+2022/09/14 19:23:29 [notice] 31#31: exiting
+2022/09/14 19:23:29 [notice] 35#35: exiting
+2022/09/14 19:23:29 [notice] 43#43: exit
+2022/09/14 19:23:29 [notice] 32#32: exiting
+2022/09/14 19:23:29 [notice] 38#38: exiting
+2022/09/14 19:23:29 [notice] 50#50: exit
+2022/09/14 19:23:29 [notice] 45#45: exiting
+2022/09/14 19:23:29 [notice] 39#39: exit
+2022/09/14 19:23:29 [notice] 47#47: exit
+2022/09/14 19:23:29 [notice] 44#44: exiting
+2022/09/14 19:23:29 [notice] 48#48: exiting
+2022/09/14 19:23:29 [notice] 51#51: exiting
+2022/09/14 19:23:29 [notice] 49#49: exit
+2022/09/14 19:23:29 [notice] 37#37: exit
+2022/09/14 19:23:29 [notice] 54#54: exit
+2022/09/14 19:23:29 [notice] 36#36: exiting
+2022/09/14 19:23:29 [notice] 52#52: exiting
+2022/09/14 19:23:29 [notice] 46#46: exit
+2022/09/14 19:23:29 [notice] 33#33: exiting
+2022/09/14 19:23:29 [notice] 40#40: exit
+2022/09/14 19:23:29 [notice] 53#53: exit
+2022/09/14 19:23:29 [notice] 41#41: exit
+2022/09/14 19:23:29 [notice] 31#31: exit
+2022/09/14 19:23:29 [notice] 35#35: exit
+2022/09/14 19:23:29 [notice] 32#32: exit
+2022/09/14 19:23:29 [notice] 38#38: exit
+2022/09/14 19:23:29 [notice] 45#45: exit
+2022/09/14 19:23:29 [notice] 44#44: exit
+2022/09/14 19:23:29 [notice] 48#48: exit
+2022/09/14 19:23:29 [notice] 51#51: exit
+2022/09/14 19:23:29 [notice] 36#36: exit
+2022/09/14 19:23:29 [notice] 52#52: exit
+2022/09/14 19:23:29 [notice] 33#33: exit
+2022/09/14 19:23:29 [notice] 1#1: signal 14 (SIGALRM) received
+2022/09/14 19:23:29 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2022/09/14 19:23:29 [notice] 1#1: worker process 41 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 48 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 49 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 52 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 54 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/14 19:23:29 [notice] 1#1: signal 17 (SIGCHLD) received from 48
+2022/09/14 19:23:29 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2022/09/14 19:23:29 [notice] 1#1: worker process 33 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 34 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 35 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 39 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 45 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 46 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 50 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 51 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/14 19:23:29 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/14 19:23:29 [notice] 1#1: signal 17 (SIGCHLD) received from 53
+2022/09/14 19:23:29 [notice] 1#1: worker process 31 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 32 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 36 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 37 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 38 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 40 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 42 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 43 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 44 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 47 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: worker process 53 exited with code 0
+2022/09/14 19:23:29 [notice] 1#1: exit
+2022/09/14 19:34:35 [notice] 1#1: using the "epoll" event method
+2022/09/14 19:34:35 [notice] 1#1: nginx/1.23.1
+2022/09/14 19:34:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/14 19:34:35 [notice] 1#1: OS: Linux 5.10.102.1-microsoft-standard-WSL2
+2022/09/14 19:34:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/14 19:34:35 [notice] 1#1: start worker processes
+2022/09/14 19:34:35 [notice] 1#1: start worker process 31
+2022/09/14 19:34:35 [notice] 1#1: start worker process 32
+2022/09/14 19:34:35 [notice] 1#1: start worker process 33
+2022/09/14 19:34:35 [notice] 1#1: start worker process 34
+2022/09/14 19:34:35 [notice] 1#1: start worker process 35
+2022/09/14 19:34:35 [notice] 1#1: start worker process 36
+2022/09/14 19:34:35 [notice] 1#1: start worker process 37
+2022/09/14 19:34:35 [notice] 1#1: start worker process 38
+2022/09/14 19:34:35 [notice] 1#1: start worker process 39
+2022/09/14 19:34:35 [notice] 1#1: start worker process 40
+2022/09/14 19:34:35 [notice] 1#1: start worker process 41
+2022/09/14 19:34:35 [notice] 1#1: start worker process 42
+2022/09/14 19:34:35 [notice] 1#1: start worker process 43
+2022/09/14 19:34:35 [notice] 1#1: start worker process 44
+2022/09/14 19:34:35 [notice] 1#1: start worker process 45
+2022/09/14 19:34:35 [notice] 1#1: start worker process 46
+2022/09/14 19:34:35 [notice] 1#1: start worker process 47
+2022/09/14 19:34:35 [notice] 1#1: start worker process 48
+2022/09/14 19:34:35 [notice] 1#1: start worker process 49
+2022/09/14 19:34:35 [notice] 1#1: start worker process 50
+2022/09/14 19:34:35 [notice] 1#1: start worker process 51
+2022/09/14 19:34:35 [notice] 1#1: start worker process 52
+2022/09/14 19:34:35 [notice] 1#1: start worker process 53
+2022/09/14 19:34:35 [notice] 1#1: start worker process 54
+2022/09/14 19:39:54 [notice] 37#37: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 37#37: exiting
+2022/09/14 19:39:54 [notice] 41#41: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 32#32: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 35#35: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 39#39: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 42#42: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 48#48: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 45#45: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 45#45: exiting
+2022/09/14 19:39:54 [notice] 33#33: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 33#33: exiting
+2022/09/14 19:39:54 [notice] 43#43: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 43#43: exiting
+2022/09/14 19:39:54 [notice] 47#47: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 47#47: exiting
+2022/09/14 19:39:54 [notice] 38#38: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 46#46: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 31#31: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 44#44: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 54#54: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 54#54: exiting
+2022/09/14 19:39:54 [notice] 36#36: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 53#53: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 49#49: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 49#49: exiting
+2022/09/14 19:39:54 [notice] 52#52: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 50#50: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 40#40: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 34#34: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 51#51: signal 15 (SIGTERM) received, exiting
+2022/09/14 19:39:54 [notice] 37#37: exit
+2022/09/14 19:39:54 [notice] 41#41: exiting
+2022/09/14 19:39:54 [notice] 32#32: exiting
+2022/09/14 19:39:54 [notice] 35#35: exiting
+2022/09/14 19:39:54 [notice] 39#39: exiting
+2022/09/14 19:39:54 [notice] 42#42: exiting
+2022/09/14 19:39:54 [notice] 48#48: exiting
+2022/09/14 19:39:54 [notice] 45#45: exit
+2022/09/14 19:39:54 [notice] 33#33: exit
+2022/09/14 19:39:54 [notice] 43#43: exit
+2022/09/14 19:39:54 [notice] 47#47: exit
+2022/09/14 19:39:54 [notice] 38#38: exiting
+2022/09/14 19:39:54 [notice] 46#46: exiting
+2022/09/14 19:39:54 [notice] 1#1: signal 1 (SIGHUP) received, reconfiguring
+2022/09/14 19:39:54 [notice] 31#31: exiting
+2022/09/14 19:39:54 [notice] 44#44: exiting
+2022/09/14 19:39:54 [notice] 54#54: exit
+2022/09/14 19:39:54 [notice] 36#36: exiting
+2022/09/14 19:39:54 [notice] 53#53: exiting
+2022/09/14 19:39:54 [notice] 49#49: exit
+2022/09/14 19:39:54 [notice] 52#52: exiting
+2022/09/14 19:39:54 [notice] 50#50: exiting
+2022/09/14 19:39:54 [notice] 40#40: exiting
+2022/09/14 19:39:54 [notice] 34#34: exiting
+2022/09/14 19:39:54 [notice] 51#51: exiting
+2022/09/14 19:39:54 [notice] 41#41: exit
+2022/09/14 19:39:54 [notice] 32#32: exit
+2022/09/14 19:39:54 [notice] 35#35: exit
+2022/09/14 19:39:54 [notice] 39#39: exit
+2022/09/14 19:39:54 [notice] 42#42: exit
+2022/09/14 19:39:54 [notice] 48#48: exit
+2022/09/14 19:39:54 [notice] 38#38: exit
+2022/09/14 19:39:54 [notice] 46#46: exit
+2022/09/14 19:39:54 [notice] 31#31: exit
+2022/09/14 19:39:54 [notice] 44#44: exit
+2022/09/14 19:39:54 [notice] 36#36: exit
+2022/09/14 19:39:54 [notice] 53#53: exit
+2022/09/14 19:39:54 [notice] 52#52: exit
+2022/09/14 19:39:54 [notice] 50#50: exit
+2022/09/14 19:39:54 [notice] 40#40: exit
+2022/09/14 19:39:54 [notice] 34#34: exit
+2022/09/14 19:39:54 [notice] 51#51: exit
+2022/09/14 19:39:54 [notice] 1#1: signal 14 (SIGALRM) received
+2022/09/14 19:39:54 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/09/14 19:39:54 [notice] 1#1: worker process 37 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/14 19:39:54 [notice] 1#1: signal 17 (SIGCHLD) received from 46
+2022/09/14 19:39:54 [notice] 1#1: worker process 33 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 36 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 31 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 32 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 34 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 35 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 39 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 40 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 41 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 43 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 44 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 46 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 47 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 48 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 49 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 51 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 52 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 53 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/14 19:39:54 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/14 19:39:54 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2022/09/14 19:39:54 [notice] 1#1: worker process 38 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 42 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 45 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 50 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: worker process 54 exited with code 0
+2022/09/14 19:39:54 [notice] 1#1: exit
+2022/09/14 19:46:51 [notice] 1#1: using the "epoll" event method
+2022/09/14 19:46:51 [notice] 1#1: nginx/1.23.1
+2022/09/14 19:46:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/14 19:46:51 [notice] 1#1: OS: Linux 5.10.102.1-microsoft-standard-WSL2
+2022/09/14 19:46:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/14 19:46:51 [notice] 1#1: start worker processes
+2022/09/14 19:46:51 [notice] 1#1: start worker process 31
+2022/09/14 19:46:51 [notice] 1#1: start worker process 32
+2022/09/14 19:46:51 [notice] 1#1: start worker process 33
+2022/09/14 19:46:51 [notice] 1#1: start worker process 34
+2022/09/14 19:46:51 [notice] 1#1: start worker process 35
+2022/09/14 19:46:51 [notice] 1#1: start worker process 36
+2022/09/14 19:46:51 [notice] 1#1: start worker process 37
+2022/09/14 19:46:51 [notice] 1#1: start worker process 38
+2022/09/14 19:46:51 [notice] 1#1: start worker process 39
+2022/09/14 19:46:51 [notice] 1#1: start worker process 40
+2022/09/14 19:46:51 [notice] 1#1: start worker process 41
+2022/09/14 19:46:51 [notice] 1#1: start worker process 42
+2022/09/14 19:46:51 [notice] 1#1: start worker process 43
+2022/09/14 19:46:51 [notice] 1#1: start worker process 44
+2022/09/14 19:46:51 [notice] 1#1: start worker process 45
+2022/09/14 19:46:51 [notice] 1#1: start worker process 46
+2022/09/14 19:46:51 [notice] 1#1: start worker process 47
+2022/09/14 19:46:51 [notice] 1#1: start worker process 48
+2022/09/14 19:46:51 [notice] 1#1: start worker process 49
+2022/09/14 19:46:51 [notice] 1#1: start worker process 50
+2022/09/14 19:46:51 [notice] 1#1: start worker process 51
+2022/09/14 19:46:51 [notice] 1#1: start worker process 52
+2022/09/14 19:46:51 [notice] 1#1: start worker process 53
+2022/09/14 19:46:51 [notice] 1#1: start worker process 54

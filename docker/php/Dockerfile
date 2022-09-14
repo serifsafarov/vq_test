@@ -1,7 +1,7 @@
 FROM php:8.0-fpm
 
 RUN apt-get update && \
-    apt-get install -y nodejs systemd cron supervisor apt-utils automake libtool apt-transport-https wget iputils-ping mc mlocate zip unzip bzip2 gcc rpm subversion git gnupg autoconf
+    apt-get install -y systemd cron supervisor apt-utils automake libtool apt-transport-https wget iputils-ping mc mlocate zip unzip bzip2 gcc rpm subversion git gnupg autoconf
 
 RUN crontab -l | { cat; echo "* * * * * php /var/www/html/artisan schedule:run"; } | crontab -
 
@@ -39,6 +39,9 @@ RUN apt-get install -y libicu-dev libldap2-dev libjpeg62-turbo-dev libpng-dev li
     #/usr/bin/supervisord -c /etc/supervisor/supervisord.conf
 
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
+
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
+    apt-get install -y nodejs
 
 EXPOSE 8000
 EXPOSE 9000
