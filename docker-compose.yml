@@ -1,0 +1,87 @@
+version: '3'
+
+services:
+  mysql:
+    container_name: "vq_mysql"
+    image: mysql:latest
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "2t9k51hP"
+      MYSQL_DATABASE: "vq"
+      MYSQL_USER: "vq"
+      MYSQL_PASSWORD: "2t9k51hP"
+    volumes:
+      - db_data
+  mysql_test:
+    container_name: "vq_mysql_test"
+    image: mysql:latest
+    restart: always
+    ports:
+      - "3308:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "2t9k51hP"
+      MYSQL_DATABASE: "vq"
+      MYSQL_USER: "vq"
+      MYSQL_PASSWORD: "2t9k51hP"
+    volumes:
+      - db_data_test
+  php:
+    container_name: "vq_php"
+    build: docker/php
+    tty: true
+    volumes:
+      - ./docker/php/z-overrides.ini:/usr/local/etc/php/conf.d/z-overrides.ini
+      - ./app:/var/www/vq
+      - ./docker/php/supervisor-processes.conf:/etc/supervisor/conf.d/conf.conf
+      - ./docker/php/supervisord.conf:/etc/supervisor/supervisord.conf
+    working_dir: /var/www/vq
+    ports:
+      - "8000:8000"
+      - "9000:9000"
+    environment:
+      DB_CONNECTION: 'mysql'
+      DB_HOST: 'mysql'
+      DB_PORT: '3306'
+      DB_DATABASE: 'vq'
+      DB_USERNAME: 'vq'
+      DB_PASSWORD: '2t9k51hP'
+      DB_CONNECTION_TEST: 'mysql_test'
+      DB_HOST_TEST: 'mysql_test'
+      DB_PORT_TEST: '3306'
+      DB_DATABASE_TEST: 'vq'
+      DB_USERNAME_TEST: 'vq'
+      DB_PASSWORD_TEST: '2t9k51hP'
+      ANT_MEDIA_ENDPOINT: 'http://89.22.229.228:5080/TestAppSharif/rest/'
+    depends_on:
+      - mysql
+      - mysql_test
+  nginx:
+    container_name: "vq_nginx"
+    build: ./docker/nginx
+    tty: true
+    volumes:
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./app:/var/www/vq
+      - ./logs/nginx:/var/log/nginx
+    ports:
+      - "4000:80"
+    depends_on:
+      - php
+    links:
+      - php
+  redis:
+    container_name: "vq_redis"
+    image: redis:latest
+    ports:
+      - "6380:6379"
+    depends_on:
+      - php
+
+#Volumes
+volumes:
+  db_data:
+    driver: local
+  db_data_test:
+    driver: local
